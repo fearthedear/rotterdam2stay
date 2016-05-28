@@ -2,7 +2,7 @@
 
 while true
 do
-	count=0
+    count=0
     count=`curl -s "https://rotterdam2stay.nl/book-apartment.html" | grep -c "filter"`
 
     if [ "$count" != "0" ]
