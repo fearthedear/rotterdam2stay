@@ -7,7 +7,7 @@ do
 
     if [ "$count" != "0" ]
     then
-    	mail -s "New apartments on rot2stay" linuskinzel@gmail.com philippa.josefsson@gmail.com < mailtext.txt
+    	mail -s "New apartments on rot2stay" r2s@linuskinzel.com < mailtext.txt
     	echo "mail sent"
     	sleep 10
     	apartments_online=true
